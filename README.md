@@ -1,24 +1,15 @@
 # Requirement Analysis in Software Development
 The Requirement Analysis establishes a solid foundation for software development by systematically documenting, analyzing, and organizing requirements. It involves a series of structured tasks that result in a detailed blueprint for the requirement analysis phase of a booking management system. This project simulates a real-world development scenario, emphasizing clarity, precision, and structure to ensure well-defined requirements and to set the stage for successful project execution.
 
-## What is Requirement Analysis?
-# Requirement Analysis Project  
-
-## Introduction  
+## What is Requirement Analysis?  
 The Requirement Analysis Project focuses on building a comprehensive foundation for software development by documenting, analyzing, and structuring requirements. Through a series of well-defined tasks, this project simulates a real-world development scenario, emphasizing clarity, precision, and structure in defining requirements to set the stage for successful execution of a booking management system.  
 
 ---
-
-## What is Requirement Analysis?  
-
 Requirement Analysis is a critical phase in the Software Development Life Cycle (SDLC) where the needs, expectations, and constraints of a software system are carefully studied, documented, and validated. Its primary purpose is to ensure that the development team and stakeholders share a common understanding of what the system must achieve before design and implementation begin.  
 
 This process involves gathering requirements from stakeholders such as clients, users, product owners, and business analysts, and then refining them into clear, precise, and actionable specifications. These requirements are typically divided into two categories:  
 
-- **Functional Requirements** – Define what the system should do. For example, in a booking system, this might include searching for properties, viewing details, making reservations, and processing payments.  
-- **Non-Functional Requirements** – Define how the system should perform. This includes performance, scalability, security, reliability, and user experience expectations.  
 
----
 
 ## Importance of Requirement Analysis in the SDLC  
 
@@ -44,7 +35,7 @@ Requirement Analysis plays a vital role in ensuring the success of any software 
 
 ---
 
-## Relevance to the Booking Management System  
+### Relevance to the Booking Management System  
 
 In the context of a booking management system, Requirement Analysis ensures that essential features such as:  
 
