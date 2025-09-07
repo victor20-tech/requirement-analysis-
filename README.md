@@ -58,3 +58,36 @@ Requirement Analysis is one of the most crucial phases in the Software Developme
 3. **Reduces Risks and Prevents Costly Rework**  
    Identifying requirements early in the SDLC helps detect gaps, inconsistencies, or potential conflicts before design and coding begin. Addressing issues at this stage is significantly less costly than fixing them after implementation, thereby reducing risks and improving project stability.    
 
+---
+
+
+## Key Activities in Requirement Analysis  
+
+Requirement Analysis involves several structured activities that ensure the system requirements are accurately captured, clearly defined, and validated. Below are the five key activities:  
+
+- **Requirement Gathering**  
+  - The process of collecting information from stakeholders, end-users, and domain experts.  
+  - Focuses on identifying needs, expectations, and constraints related to the system.  
+  - Techniques may include interviews, surveys, brainstorming sessions, and reviewing existing documentation.  
+
+- **Requirement Elicitation**  
+  - Involves actively engaging with stakeholders to uncover both stated and hidden requirements.  
+  - Helps identify real needs beyond surface-level requests.  
+  - Common methods include workshops, prototyping, observation, and use-case analysis.  
+
+- **Requirement Documentation**  
+  - Captures all gathered and elicited requirements in a clear, structured, and organized manner.  
+  - Ensures requirements are unambiguous, consistent, and easy to reference throughout the SDLC.  
+  - Typical outputs include Software Requirement Specifications (SRS) and user stories.  
+
+- **Requirement Analysis and Modeling**  
+  - Involves evaluating requirements for feasibility, consistency, and completeness.  
+  - Uses models such as data flow diagrams, use-case diagrams, or process workflows to visualize system behavior.  
+  - Helps developers and stakeholders understand system interactions and dependencies.  
+
+- **Requirement Validation**  
+  - Confirms that documented requirements accurately reflect stakeholder needs.  
+  - Ensures requirements are testable, achievable, and aligned with business objectives.  
+  - Techniques may include walkthroughs, reviews, and prototyping to verify correctness.  
+
+
