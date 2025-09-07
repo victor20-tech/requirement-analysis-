@@ -126,5 +126,17 @@ Non-functional requirements describe the system’s operational characteristics,
 
 ---
 
+## Use Case Diagrams  
+## Acceptance Criteria  
+
+### Importance of Acceptance Criteria  
+Acceptance Criteria are the **predefined conditions** that a software feature must satisfy to be accepted by stakeholders, product owners, or end users. They serve as a **contract of understanding** between developers, testers, and stakeholders, ensuring that everyone has a shared definition of when a requirement is considered “done.”  
+
+Key benefits include:  
+- **Clarity:** Removes ambiguity by defining clear expectations for features.  
+- **Validation:** Provides a measurable basis to verify whether a requirement has been met.  
+- **Alignment:** Ensures developers and testers build features that align with user needs.  
+- **Quality Assurance:** Reduces the risk of defects by guiding test cases and validations.  
+
  
 
