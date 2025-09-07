@@ -90,4 +90,41 @@ Requirement Analysis involves several structured activities that ensure the syst
   - Ensures requirements are testable, achievable, and aligned with business objectives.  
   - Techniques may include walkthroughs, reviews, and prototyping to verify correctness.  
 
+## Types of Requirements  
+
+In Requirement Analysis, requirements are broadly categorized into **Functional Requirements** and **Non-Functional Requirements**. Both are essential for building a system that not only works correctly but also performs reliably under real-world conditions.  
+
+### 1. Functional Requirements  
+Functional requirements define **what the system should do**. They describe the core features and operations that directly support user needs.  
+
+**Definition:**  
+Functional requirements specify the behaviors, tasks, and services the system must provide to its users.  
+
+**Examples for the Booking Management System:**  
+- Users should be able to **search for properties** based on location, price, and availability.  
+- The system should allow users to **view property details**, including images, descriptions, amenities, and ratings.  
+- Users must be able to **book a property** by selecting dates and confirming reservations.  
+- The system should provide a **secure checkout process** with multiple payment options.  
+- Registered users should be able to **create and manage their profiles**.  
+- The system should allow property owners to **add, edit, or remove listings**.  
+
+---
+
+### 2. Non-Functional Requirements  
+Non-functional requirements define **how the system should perform**. They are related to quality attributes, performance, and constraints that ensure usability and reliability.  
+
+**Definition:**  
+Non-functional requirements describe the system’s operational characteristics, such as speed, security, scalability, and user experience.  
+
+**Examples for the Booking Management System:**  
+- **Performance:** Search results should load within **2 seconds** for up to 10,000 properties.  
+- **Scalability:** The system must handle **increasing numbers of users** during peak booking seasons without downtime.  
+- **Security:** All payment transactions must be processed using **secure encryption protocols (e.g., SSL/TLS)**.  
+- **Availability:** The booking system should be available **24/7 with 99.9% uptime**.  
+- **Usability:** The interface must be **mobile-responsive** and accessible following **WCAG guidelines**.  
+- **Reliability:** Bookings must be accurately processed and confirmed without data loss.  
+
+---
+
+ 
 
