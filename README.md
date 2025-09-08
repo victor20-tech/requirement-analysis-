@@ -31,7 +31,7 @@ Requirement Analysis is a critical phase in the Software Development Lifecycle (
 4.  **Cost and Time Estimation**: A thorough Requirement Analysis facilitates **accurate estimation of project cost, necessary resources, and the time** required for completion. This precision in planning helps in better project management and resource allocation.
 5.  **Quality Assurance**: Ultimately, a well-executed Requirement Analysis ensures that the final product will **meet the specified requirements**, which directly contributes to higher customer satisfaction by delivering a system that performs as expected.
 
-
+##Key Activities in Requirement Analysis##
 Requirement Analysis involves several key activities to ensure that the software product's requirements are thoroughly understood and defined. These activities are distinct yet interconnected, forming a structured process.
 
 Here are the five key activities:
