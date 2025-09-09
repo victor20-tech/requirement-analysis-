@@ -130,7 +130,9 @@ Use Case Diagrams offer several significant benefits in the software development
 
 ### Use Case Diagram for the Booking System
 
-                                                ***alx-booking-uc.png***
+<img width="751" height="391" alt="alx-booking-uc" src="https://github.com/user-attachments/assets/b2c05da6-86dd-41cb-ad8c-7f42752aeaf7" />
+
+                                                
 
 **Actors for the Booking System:**
 
