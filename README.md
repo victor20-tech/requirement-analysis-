@@ -130,36 +130,97 @@ Use Case Diagrams offer several significant benefits in the software development
 
 ### Use Case Diagram for the Booking System
 
+### Goal
+The use case model describes the interactions between users (actors) and the booking system.  
+It defines the system’s functional requirements, illustrating how different user roles achieve their goals through the platform.  
+This ensures clarity in design, guides development, and facilitates alignment among stakeholders.
+
+
+### Actors
+- **Guest (User):** Browses properties, creates an account, books stays, and makes payments.  
+- **Host (Property Owner):** Lists properties, manages availability, and reviews bookings.  
+- **Administrator:** Manages users, oversees listings, ensures compliance, and maintains system integrity.  
+- **Payment Gateway (External System):** Handles secure payments and booking confirmations.  
+
+
+### Use Case Diagram
+
+Below is the UML Use Case Diagram representing the interactions between system actors and their respective use cases:
+
 <img width="751" height="391" alt="alx-booking-uc" src="https://github.com/user-attachments/assets/b2c05da6-86dd-41cb-ad8c-7f42752aeaf7" />
 
-                                                
 
-**Actors for the Booking System:**
+### Key Use Cases
 
-*   **Customer/User**: This actor represents individuals who want to find and book accommodations.
-*   **Hotel Manager/Owner**: This actor represents individuals responsible for managing hotel information and bookings for their property.
+#### 1. User Authentication
+- **Actors:** Guest, Host  
+- **Goal:** Allow users to securely sign up, log in, and manage their accounts.  
+- **Flow:**
+  1. User navigates to login/sign-up page.  
+  2. System validates credentials or creates a new account.  
+  3. User gains access to dashboard.  
 
-**Use Cases for the Booking System:**
 
-Here are the primary use cases and how they relate to the identified actors, drawing upon the functionalities described in the sources:
+#### 2. Search and Filter Properties
+- **Actor:** Guest  
+- **Goal:** Enable guests to find suitable properties efficiently.  
+- **Flow:**
+  1. Guest enters search criteria (location, dates, price, amenities).  
+  2. System retrieves and filters properties.  
+  3. Guest views a list/grid of matching results.  
 
-**For the Customer/User:**
-*   **Register Account**: New users should be able to create an account with personal details and login credentials.
-*   **Log In/Authenticate**: Users need a secure login process to access their accounts and services.
-*   **Search Properties**: Users should be able to search for properties based on various criteria (e.g., location, price, availability).
-*   **View Property Listings**: The system should display properties with essential details and images.
-*   **Book Property**: Users should be able to book properties.
-*   **View Booking Details**: Users can access all current and past booking details.
-*   **Manage Bookings**: This encompasses viewing and potentially modifying/canceling bookings.
-*   **Receive Notifications**: Users can receive notifications for new offers or booking updates.
 
-**For the Hotel Manager/Owner:**
-*   **Log In/Authenticate**: Managers need a separate portal with access to their data.
-*   **Manage Hotel Information**: Managers can access and update their hotel's related information.
-*   **View Booking Details**: Managers can view current and old booking details related to their properties.
-*   **Receive Notifications**: Managers receive notifications, such as when a customer books a hotel.
+#### 3. View Property Details
+- **Actor:** Guest  
+- **Goal:** Provide comprehensive property information before booking.  
+- **Flow:**
+  1. Guest selects a property from search results.  
+  2. System displays detailed property page with images, description, availability, and price.  
+  3. Guest reviews details and may proceed to booking.  
 
-A visual Use Case Diagram would typically show these actors as stick figures and the use cases as ovals, with lines connecting actors to the use cases they initiate or participate in. This textual outline provides the content that would be depicted in such a diagram.
+#### 4. Book a Property
+- **Actors:** Guest, Payment Gateway  
+- **Goal:** Allow guests to confirm and pay for bookings securely.  
+- **Flow:**
+  1. Guest clicks **“Book Now.”**  
+  2. System prompts for booking details and payment information.  
+  3. Payment Gateway processes the transaction.  
+  4. System confirms booking and sends notification.  
+
+
+#### 5. List a Property
+- **Actor:** Host  
+- **Goal:** Enable hosts to create and manage property listings.  
+- **Flow:**
+  1. Host navigates to **“List Property.”**  
+  2. System prompts for property details (title, description, price, images).  
+  3. Host submits listing.  
+  4. System publishes the listing for users to view.  
+
+
+#### 6. Manage Listings and Bookings
+- **Actor:** Host  
+- **Goal:** Allow hosts to update property information, manage availability, and view bookings.  
+- **Flow:**
+  1. Host accesses dashboard.  
+  2. System displays listings and booking requests.  
+  3. Host edits details, updates availability, or accepts/rejects bookings.  
+
+
+#### 7. Admin Management
+- **Actor:** Administrator  
+- **Goal:** Maintain platform security, compliance, and system performance.  
+- **Flow:**
+  1. Admin logs into the system.  
+  2. System displays management tools (user moderation, listing approvals, reports).  
+  3. Admin performs necessary actions to maintain integrity.  
+
+#### Benefits of Use Case Design
+- Provides a **clear functional blueprint** for the application.  
+- Aligns team members across **frontend, backend, and design** roles.  
+- Ensures **user-centered design** by focusing on guest and host journeys.  
+- Facilitates **test case creation** and quality assurance.  
+
 
 ## Acceptance Criteria  
 
